@@ -1,10 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+import { runWithAdal } from "react-adal";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+import { authContext } from "./auth/adalConfig";
+
+runWithAdal(
+  authContext,
+  () => {
+    require("./indexApp.jsx");
+  },
+  process.env.REACT_APP_SKIP_LOGIN === "true"
 );

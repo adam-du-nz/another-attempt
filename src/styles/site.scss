@@ -1,0 +1,98 @@
+@import "~@myob/design-tokens/dist/design-tokens/scss/design-tokens.scss";
+
+$flx-color-input-disabled: #515e6d !important;
+$flx-border-color-input-disabled: #dcdfe1 !important;
+$flx-background-color-badge-light-grey: #f3f4f5 !important;
+
+.mainContainer {
+  margin-top: $flx-spacing-large;
+  margin-bottom: $flx-spacing-large;
+}
+
+.hidden {
+  display: none;
+}
+
+.shown {
+  display: block;
+}
+
+.sub-header {
+  color: $flx-palette-storm-50;
+}
+
+.margin-left-1rem {
+  margin-left: 1rem;
+}
+.margin-left-3rem {
+  margin-left: 3rem;
+}
+
+.flex-inline-start {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.flex-inline-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form-label {
+  padding-right: 0.8rem;
+  margin-top: 0.5rem;
+  color: $flx-palette-storm-50;
+}
+
+.footer {
+  font-size: $flx-font-size-text-small;
+  text-align: center;
+}
+
+.error-message {
+  color: $flx-color-alert-error-link;
+}
+
+.rc-time-picker.error-message > input {
+  border-color: rgba(206, 37, 84, 0.6) !important;
+  background-color: rgba(206, 37, 84, 0.05) !important;
+  color: #ce2554 !important;
+}
+
+input.rc-time-picker-input {
+  display: block !important;
+  height: calc((1.5 * 1em) + (0.4rem * 2) + (1px * 2)) !important;
+  font-size: 1.4rem !important;
+  line-height: 1.5 !important;
+  color: #1b2830 !important;
+  background-color: #ffffff !important;
+  background-image: none !important;
+  border: $flx-border-button-secondary !important;
+  border-radius: 0.4rem !important;
+  padding: 0.4rem 1rem !important;
+  padding-right: 1rem !important;
+  box-shadow: none !important;
+  transition: border-color ease-in-out 0.15s !important;
+  background-clip: padding-box !important;
+}
+
+input.rc-time-picker-input[disabled] {
+  cursor: not-allowed;
+  color: $flx-color-input-disabled;
+  -webkit-text-fill-color: $flx-color-input-disabled;
+  border-color: $flx-border-color-input-disabled;
+  background-color: $flx-background-color-badge-light-grey;
+}
+
+.rc-time-picker-panel-inner,
+.rc-time-picker-panel-inner > *,
+.rc-time-picker-panel-inner > * > *,
+.rc-time-picker-panel-inner * {
+  font-size: 1.4rem !important;
+}
+
+.dropzone-container[disabled] {
+  cursor: not-allowed;
+  color: $flx-color-input-disabled;
+  -webkit-text-fill-color: $flx-color-input-disabled;
+}

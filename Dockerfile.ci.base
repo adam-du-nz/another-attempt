@@ -1,0 +1,8 @@
+# syntax=docker/dockerfile:1.2
+
+FROM node:12
+WORKDIR /app
+
+COPY . /app/
+
+RUN  --mount=type=secret,id=npmrc,dst=/root/.npmrc npm ci

@@ -1,0 +1,16 @@
+version: "2.4"
+
+services:
+  kiln-frontend:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile.dev
+    volumes:
+      - .:/app/
+    env_file:
+      - .env
+    command: bash -c "npm install && npm start"
+    ports:
+      - "3000:3000"
+    container_name: kiln-frontend
+    stdin_open: true

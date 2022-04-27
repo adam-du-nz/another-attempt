@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccessDeny should render correctly 1`] = `
+<body>
+  <div>
+    <span
+      class="label default blue lrg"
+    >
+      Access Denied
+    </span>
+    <p
+      style="margin: 1rem 0px 0px 0px;"
+    >
+      Sorry, Employment Forms access is restricted to MYOB People Leaders.
+    </p>
+    <p
+      style="margin: 1rem 0px 0px 0px;"
+    >
+      If you do believe you should have access, please contact your manager or People Consultants, or raise a HelpMe ticket.
+    </p>
+    <div
+      style="width: 80px; padding: 1rem; float: right;"
+    >
+      <svg
+        aria-labelledby="MYOBLogo-title MYOBLogo-desc"
+        preserveAspectRatio="xMidYMin slice"
+        role="img"
+        style="width: 100%; height: 1px; overflow: visible; padding-bottom: 39.73%; box-sizing: content-box; display: block;"
+        viewBox="0 0 73 30"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <title
+          id="MYOBLogo-title"
+        >
+          MYOB
+        </title>
+        <desc
+          id="MYOBLogo-desc"
+        >
+          MYOB
+           logo
+        </desc>
+        <defs>
+          <lineargradient
+            id="MYOBLogo-gradient"
+            x1="0%"
+            y1="50%"
+            y2="50%"
+          >
+            <stop
+              offset="0%"
+              stop-color="#6001A5"
+            />
+            <stop
+              offset="33.44%"
+              stop-color="#6001A5"
+            />
+            <stop
+              offset="93.236%"
+              stop-color="#DE0877"
+            />
+            <stop
+              offset="100%"
+              stop-color="#ED0577"
+            />
+          </lineargradient>
+        </defs>
+        <path
+          d="M59.633 0l.003.004c-2.72 0-3.154 1.82-3.204 2.712v19.738h1.925c1.542.03 1.9-.953 1.915-1.507V20.797c1.21 1.265 2.87 1.99 4.74 1.99 4.08 0 7.402-3.502 7.402-8.09 0-4.617-3.323-8.118-7.402-8.118-1.782 0-3.384.663-4.562 1.81V0h-.817zm.817 14.728c0-2.475 1.783-4.467 3.988-4.467s3.988 1.933 3.988 4.468c0 2.475-1.783 4.376-3.988 4.376s-3.988-1.962-3.988-4.376zm-20.99-.03c0 4.647 3.506 8.118 7.826 8.118s7.855-3.47 7.855-8.118-3.534-8.18-7.854-8.18-7.825 3.532-7.825 8.18zm3.99.03c0-2.686 1.72-4.557 3.836-4.557 2.115 0 3.837 1.872 3.837 4.558 0 2.625-1.722 4.436-3.837 4.436s-3.837-1.81-3.837-4.436zM11.963 8.722C10.846 7.364 9.124 6.52 7.01 6.52 2.75 6.52 0 9.506 0 13.46v8.994h1.3c.883-.054 2.628-.492 2.688-3.07V13.37c0-1.75 1.24-2.958 3.02-2.958 2.63 0 2.9 2.082 2.9 2.958v9.084h1.302c.88-.054 2.615-.49 2.687-3.04V13.37c0-1.75 1.27-2.958 3.02-2.958 2.63 0 2.932 2.082 2.932 2.958v9.084h1.296c.89-.055 2.65-.496 2.69-3.11V13.46c0-4.074-2.567-6.94-6.918-6.94-2.024 0-3.776.844-4.954 2.202zm23.368-.088l-3.353 9.28-3.648-9.61c-.552-1.52-1.993-1.437-1.993-1.437h-3.107l6.18 15.1-.013-.047s.01.03.023.062c.01.03.02.057.023.062l-.032-.077c.203.614.144.957-.042 1.55l-.135.38c-.718 1.786-1.73 2.27-3.883 2.15v.012l1.494 3.65c2.767-.062 4.848-.964 6.24-4.42l7.44-18.42v-.003l-2.783-.002h-.01c-.152 0-1.736.04-2.403 1.77z"
+          fill="url(#MYOBLogo-gradient)"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </div>
+</body>
+`;
